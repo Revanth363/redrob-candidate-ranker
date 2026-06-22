@@ -25,7 +25,6 @@ from rank import (
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="Redrob Candidate Ranker",
-    page_icon="🔍",
     layout="wide",
 )
 
