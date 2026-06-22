@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0086151,1,1.0,Recommendation Systems Engineer (7.7 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 3 assessments avg=71; open-to-work
+CAND_0046525,2,0.9641,Senior Machine Learning Engineer (6.1 yrs); strong signals: learning-to-rank|mrr|ndcg; 5 assessments avg=85; open-to-work; resp=0.88
+CAND_0008425,3,0.8889,Senior NLP Engineer (7.8 yrs); strong signals: learning-to-rank|ndcg; 1 assessments avg=78; open-to-work
+CAND_0006567,4,0.6867,Senior AI Engineer (7.9 yrs); strong signals: information retrieval|personalization; 4 assessments avg=76; open-to-work; resp=0.79
+CAND_0041669,5,0.66,Recommendation Systems Engineer (8.0 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 2 assessments avg=80; open-to-work; resp=0.77
+CAND_0043228,6,0.633,Applied ML Engineer (6.8 yrs); strong signals: learning-to-rank|search engineer; 5 assessments avg=74
+CAND_0081686,7,0.626,Search Engineer (6.0 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 4 assessments avg=72; resp=0.91
+CAND_0055905,8,0.6162,Senior Machine Learning Engineer (8.1 yrs); strong signals: learning-to-rank|mrr|ndcg; 4 assessments avg=70; open-to-work; resp=0.87
+CAND_0071974,9,0.5865,Senior AI Engineer (7.8 yrs); strong signals: collaborative filtering|learning-to-rank; 4 assessments avg=80; open-to-work; resp=0.76
+CAND_0079387,10,0.4984,AI Engineer (6.9 yrs); strong signals: collaborative filtering; 5 assessments avg=70; open-to-work; resp=0.81
+CAND_0084819,11,0.4926,Search Engineer (4.5 yrs); strong signals: learning-to-rank|search engineer; 4 assessments avg=77; open-to-work; resp=0.74
+CAND_0070485,12,0.4762,Search Engineer (6.4 yrs); strong signals: learning-to-rank|search engineer; 4 assessments avg=58; open-to-work
+CAND_0066376,13,0.4725,Applied ML Engineer (5.7 yrs); strong signals: collaborative filtering; 2 assessments avg=75; open-to-work
+CAND_0020708,14,0.4719,Search Engineer (4.2 yrs); strong signals: search engineer; 1 assessments avg=64; open-to-work; resp=0.84
+CAND_0028793,15,0.4421,Search Engineer (7.2 yrs); strong signals: search engineer; 3 assessments avg=80; open-to-work
+CAND_0049538,16,0.4275,Applied ML Engineer (5.8 yrs); strong signals: learning-to-rank; 5 assessments avg=71; resp=0.72
+CAND_0041568,17,0.4136,Search Engineer (5.2 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 4 assessments avg=71; open-to-work
+CAND_0013613,18,0.4129,Machine Learning Engineer (4.7 yrs); strong signals: collaborative filtering; 4 assessments avg=73; open-to-work; resp=0.73
+CAND_0052195,19,0.4021,Computer Vision Engineer (6.3 yrs); strong signals: collaborative filtering; 2 assessments avg=63; open-to-work
+CAND_0077337,20,0.3918,Staff Machine Learning Engineer (7.0 yrs); strong signals: collaborative filtering|ndcg; 1 assessments avg=63; open-to-work; resp=0.95
+CAND_0061265,21,0.3909,Recommendation Systems Engineer (6.6 yrs); strong signals: learning-to-rank; 2 assessments avg=77; open-to-work; resp=0.94
+CAND_0010257,22,0.3757,Senior Data Scientist (6.5 yrs); strong signals: collaborative filtering|search engineer; 5 assessments avg=70; open-to-work; resp=0.72
+CAND_0075249,23,0.3742,Applied ML Engineer (6.2 yrs); strong signals: collaborative filtering|search engineer; 5 assessments avg=68; open-to-work; resp=0.82
+CAND_0076251,24,0.3714,Search Engineer (7.6 yrs); strong signals: search engineer; 5 assessments avg=68; open-to-work
+CAND_0027691,25,0.3639,NLP Engineer (6.5 yrs); strong signals: learning-to-rank; 5 assessments avg=70; open-to-work
+CAND_0066999,26,0.3625,Recommendation Systems Engineer (5.9 yrs); strong signals: learning-to-rank; 5 assessments avg=70; open-to-work
+CAND_0044855,27,0.3598,Senior Data Scientist (6.6 yrs); strong signals: collaborative filtering; 5 assessments avg=69
+CAND_0047721,28,0.3523,Senior Data Scientist (7.0 yrs); strong signals: collaborative filtering|learning-to-rank; 5 assessments avg=77
+CAND_0006557,29,0.3396,NLP Engineer (7.9 yrs); strong signals: collaborative filtering|learning-to-rank; 4 assessments avg=70; open-to-work
+CAND_0012957,30,0.334,Search Engineer (4.9 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 4 assessments avg=70
+CAND_0091909,31,0.297,Machine Learning Engineer (6.9 yrs); strong signals: collaborative filtering; 2 assessments avg=87; open-to-work
+CAND_0070202,32,0.2903,Machine Learning Engineer (5.1 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 5 assessments avg=72
+CAND_0044222,33,0.2803,AI Engineer (7.7 yrs); medium signals: bm25|click-through|elasticsearch|ranking|recommendation|sema; 2 assessments avg=68; open-to-work
+CAND_0081053,34,0.2801,NLP Engineer (5.4 yrs); strong signals: collaborative filtering; 2 assessments avg=86; open-to-work; resp=0.83
+CAND_0076904,35,0.2797,Senior Data Scientist (4.2 yrs); strong signals: learning-to-rank; 4 assessments avg=60; open-to-work
+CAND_0005260,36,0.2745,Senior NLP Engineer (5.2 yrs); strong signals: learning-to-rank|mrr|ndcg; 1 assessments avg=81; resp=0.86
+CAND_0011687,37,0.2651,Senior NLP Engineer (7.8 yrs); strong signals: learning-to-rank; 1 assessments avg=78; open-to-work; resp=0.89
+CAND_0075574,38,0.245,Machine Learning Engineer (5.7 yrs); strong signals: learning-to-rank; 4 assessments avg=69; open-to-work
+CAND_0030031,39,0.2413,AI Engineer (5.7 yrs); strong signals: collaborative filtering|search engineer; 5 assessments avg=68; resp=0.94
+CAND_0094759,40,0.2262,Lead AI Engineer (8.6 yrs); strong signals: learning-to-rank|mrr|ndcg; 4 assessments avg=73
+CAND_0007412,41,0.2206,Applied ML Engineer (7.4 yrs); strong signals: learning-to-rank|search engineer; 2 assessments avg=53; open-to-work; resp=0.76
+CAND_0068811,42,0.2104,Applied ML Engineer (8.0 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 1 assessments avg=53; open-to-work
+CAND_0005538,43,0.2019,Senior AI Engineer (5.9 yrs); strong signals: collaborative filtering|query understanding; 1 assessments avg=93; open-to-work; resp=0.81
+CAND_0057563,44,0.1834,NLP Engineer (6.8 yrs); strong signals: collaborative filtering|learning-to-rank; 1 assessments avg=81; resp=0.83
+CAND_0026532,45,0.1832,Recommendation Systems Engineer (4.8 yrs); strong signals: collaborative filtering; 5 assessments avg=77; open-to-work
+CAND_0032515,46,0.1817,Machine Learning Engineer (5.1 yrs); strong signals: learning-to-rank|search engineer; 3 assessments avg=66
+CAND_0031593,47,0.1744,Search Engineer (7.8 yrs); strong signals: collaborative filtering|learning-to-rank|search engineer; 2 assessments avg=59; open-to-work
+CAND_0074225,48,0.1679,Machine Learning Engineer (4.3 yrs); medium signals: click-through|ranking|recommendation; 3 assessments avg=68; open-to-work; resp=0.91
+CAND_0080766,49,0.1661,Staff Machine Learning Engineer (8.8 yrs); strong signals: ndcg|personalization; 1 assessments avg=84
+CAND_0033861,50,0.1462,Senior NLP Engineer (8.0 yrs); strong signals: collaborative filtering|ndcg; 3 assessments avg=79
+CAND_0060054,51,0.1442,AI Engineer (6.4 yrs); strong signals: collaborative filtering; 1 assessments avg=90; resp=0.86
+CAND_0061257,52,0.1407,Staff Machine Learning Engineer (8.0 yrs); medium signals: ranking; 2 assessments avg=70; open-to-work; resp=0.87
+CAND_0043860,53,0.1388,Junior ML Engineer (6.1 yrs); strong signals: collaborative filtering; 3 assessments avg=71; open-to-work; resp=0.81
+CAND_0020991,54,0.1387,Junior ML Engineer (4.9 yrs); strong signals: collaborative filtering; 4 assessments avg=64; open-to-work; resp=0.88
+CAND_0056940,55,0.1313,Backend Engineer (7.4 yrs); 5 assessments avg=58; open-to-work
+CAND_0073883,56,0.1266,AI Specialist (5.3 yrs); strong signals: collaborative filtering; 3 assessments avg=68; open-to-work; resp=0.92
+CAND_0016659,57,0.1254,ML Engineer (4.4 yrs); strong signals: collaborative filtering; 4 assessments avg=66; open-to-work; resp=0.89
+CAND_0074735,58,0.1225,Applied ML Engineer (5.5 yrs); strong signals: search engineer; 1 assessments avg=68; open-to-work; resp=0.77
+CAND_0025640,59,0.1168,AI Research Engineer (5.6 yrs); strong signals: collaborative filtering; 2 assessments avg=64; open-to-work; resp=0.87
+CAND_0043381,60,0.1162,AI Research Engineer (3.6 yrs); strong signals: collaborative filtering; 5 assessments avg=64; open-to-work; resp=0.78
+CAND_0024147,61,0.114,ML Engineer (5.9 yrs); strong signals: collaborative filtering; 1 assessments avg=64; open-to-work; resp=0.84
+CAND_0091890,62,0.1117,AI Research Engineer (4.7 yrs); strong signals: collaborative filtering; 2 assessments avg=71; open-to-work
+CAND_0089552,63,0.1021,Machine Learning Engineer (6.0 yrs); strong signals: collaborative filtering; 5 assessments avg=70
+CAND_0065195,64,0.1005,Search Engineer (5.1 yrs); strong signals: search engineer; 1 assessments avg=61; open-to-work; resp=0.80
+CAND_0075439,65,0.0866,Machine Learning Engineer (4.3 yrs); strong signals: collaborative filtering; 3 assessments avg=68
+CAND_0006418,66,0.0753,Machine Learning Engineer (5.7 yrs); medium signals: click-through|ranking; 2 assessments avg=89; open-to-work; resp=0.92
+CAND_0033179,67,0.0739,AI Research Engineer (6.9 yrs); strong signals: collaborative filtering; 3 assessments avg=72; open-to-work; resp=0.84
+CAND_0052328,68,0.0653,Recommendation Systems Engineer (6.5 yrs); medium signals: ranking|recommendation; 2 assessments avg=76; open-to-work; resp=0.79
+CAND_0010685,69,0.0644,NLP Engineer (6.7 yrs); strong signals: learning-to-rank|search engineer; open-to-work; resp=0.83
+CAND_0080603,70,0.0635,Senior Data Engineer (5.8 yrs); 4 assessments avg=68; open-to-work; resp=0.76
+CAND_0096142,71,0.0633,Applied ML Engineer (5.0 yrs); strong signals: collaborative filtering; 3 assessments avg=86; open-to-work; resp=0.84
+CAND_0018549,72,0.0595,Recommendation Systems Engineer (6.8 yrs); strong signals: collaborative filtering|learning-to-rank; 3 assessments avg=72; open-to-work; resp=0.73
+CAND_0035879,73,0.0581,AI Research Engineer (4.5 yrs); strong signals: collaborative filtering; 1 assessments avg=79; open-to-work; resp=0.82
+CAND_0030827,74,0.0569,Senior Data Scientist (5.4 yrs); strong signals: learning-to-rank; open-to-work
+CAND_0053591,75,0.0552,AI Engineer (5.3 yrs); medium signals: click-through|ranking; 1 assessments avg=90; open-to-work; resp=0.81
+CAND_0068932,76,0.0529,ML Engineer (5.2 yrs); strong signals: collaborative filtering; 2 assessments avg=57; open-to-work; resp=0.82
+CAND_0038099,77,0.0521,Junior ML Engineer (5.4 yrs); strong signals: collaborative filtering; 2 assessments avg=79; open-to-work; resp=0.81
+CAND_0011327,78,0.0504,AI Research Engineer (6.3 yrs); strong signals: collaborative filtering; 2 assessments avg=59; open-to-work; resp=0.79
+CAND_0056881,79,0.0459,Machine Learning Engineer (4.5 yrs); strong signals: search engineer; 2 assessments avg=87; resp=0.75
+CAND_0004402,80,0.0451,AI Research Engineer (6.0 yrs); strong signals: collaborative filtering; 5 assessments avg=72; open-to-work; resp=0.83
+CAND_0028422,81,0.0447,Junior ML Engineer (5.5 yrs); strong signals: collaborative filtering; 4 assessments avg=59; open-to-work; resp=0.76
+CAND_0087494,82,0.0419,ML Engineer (3.4 yrs); strong signals: collaborative filtering; 3 assessments avg=67; open-to-work
+CAND_0092706,83,0.0384,AI Research Engineer (5.8 yrs); strong signals: collaborative filtering; 5 assessments avg=58; open-to-work; resp=0.78
+CAND_0099675,84,0.0383,Junior ML Engineer (3.9 yrs); strong signals: collaborative filtering; 4 assessments avg=57; open-to-work; resp=0.78
+CAND_0073917,85,0.0368,Data Scientist (5.8 yrs); strong signals: collaborative filtering; 5 assessments avg=69; open-to-work
+CAND_0015493,86,0.0341,Data Scientist (6.4 yrs); strong signals: collaborative filtering; 5 assessments avg=64; open-to-work
+CAND_0024878,87,0.0336,AI Specialist (5.7 yrs); strong signals: collaborative filtering; 1 assessments avg=51; open-to-work; resp=0.84
+CAND_0042100,88,0.0336,Machine Learning Engineer (7.3 yrs); strong signals: learning-to-rank; 2 assessments avg=75; open-to-work; resp=0.87
+CAND_0054173,89,0.0336,Computer Vision Engineer (5.1 yrs); strong signals: collaborative filtering; 1 assessments avg=78; open-to-work
+CAND_0095528,90,0.0332,Senior Data Scientist (5.3 yrs); strong signals: collaborative filtering; 5 assessments avg=69; open-to-work
+CAND_0041402,91,0.0321,AI Specialist (6.3 yrs); strong signals: collaborative filtering; 5 assessments avg=57; open-to-work
+CAND_0061244,92,0.0313,Computer Vision Engineer (6.2 yrs); strong signals: collaborative filtering; 2 assessments avg=80; open-to-work
+CAND_0093193,93,0.0281,Senior Machine Learning Engineer (7.9 yrs); 3 assessments avg=75; open-to-work
+CAND_0030348,94,0.0239,Machine Learning Engineer (4.5 yrs); strong signals: collaborative filtering; 1 assessments avg=87; open-to-work
+CAND_0020350,95,0.0223,AI Engineer (5.8 yrs); 4 assessments avg=62; open-to-work
+CAND_0083852,96,0.0198,Data Scientist (6.0 yrs); strong signals: collaborative filtering; 1 assessments avg=69; open-to-work; resp=0.85
+CAND_0041611,97,0.0162,Staff Machine Learning Engineer (6.4 yrs); strong signals: learning-to-rank|mrr|ndcg; 1 assessments avg=94
+CAND_0049978,98,0.0109,Senior Software Engineer (ML) (6.6 yrs); strong signals: collaborative filtering; 3 assessments avg=61; open-to-work; resp=0.71
+CAND_0053695,99,0.0109,Recommendation Systems Engineer (5.8 yrs); strong signals: learning-to-rank; open-to-work
+CAND_0060835,100,0.01,Senior Software Engineer (ML) (6.6 yrs); strong signals: collaborative filtering; 5 assessments avg=73; open-to-work
