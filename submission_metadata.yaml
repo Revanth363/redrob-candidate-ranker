@@ -1,0 +1,90 @@
+# Redrob Hackathon — Submission Metadata
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Regex Rankers"
+
+primary_contact:
+  name: "Dompaka Revanth Kumar"
+  email: "revanthkumardomapaka@gmail.com"
+  phone: "+91-9949169887"
+
+team_members:
+  - name: "Dompaka Revanth Kumar"
+    email: "revanthkumardomapak@gmail.com"
+    role: "Team Lead"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Revanth363/redrob-candidate-ranker"
+
+sandbox_link: "https://redrob-ranking-engine.streamlit.app/"
+
+reproduce_command: |
+  # Step 1: Generate scores and ranked output
+  python src/rank.py --candidates data/candidates.jsonl --out output/submission.csv
+
+  # Step 2 (optional): Enrich reasoning column
+  python src/improve_reasoning.py --submission output/submission.csv --candidates data/candidates.jsonl --out output/submission_final.csv
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "ASUS Vivobook K3504VA — 13th Gen Intel Core i5-1335U @ 1.30 GHz"
+  cpu_cores: 10
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11 Home Single Language (Build 26200.8655)"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Claude"
+  - "Gemini"
+
+ai_usage_summary: |
+  Used Claude for architecture discussion, code review, and methodology
+  documentation. Used Gemini for generating the system architecture diagram.
+  No candidate profile data was fed to any hosted LLM during ranking.
+  All scoring logic is fully local, rule-based, and regex-driven — zero
+  external API calls are made during the ranking step.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Rule-based ranker with explicit domain signal detection and multi-layer
+  integrity checks. The pipeline operates in two passes over ~100K candidates.
+
+  Pass 1 scores each candidate across five components: (1) domain signal score
+  from three compiled regex term banks (STRONG/MEDIUM/WEAK) applied to career
+  text and skills separately — skills are downweighted and capped at 60 pts to
+  neutralize keyword stuffers; (2) behavioral signals (assessment scores,
+  recruiter saves, response rate, interview completion, GitHub activity) gated
+  on domain signal > 0 to prevent engagement-only candidates from ranking; (3)
+  availability signals (open_to_work, last active date, notice period); (4)
+  experience fit bonus for the 5–9 year sweet spot; (5) hard disqualifiers
+  including six honeypot checks (duplicate achievements, anachronistic certs,
+  anachronistic institution enrollment, experience inflation, degree-institution
+  mismatch, degree duration anomaly) each applying a −2000 penalty.
+
+  Pass 2 detects cross-candidate template twins via an inverted description
+  index and penalizes the weaker duplicate by −50. Final scores are normalized
+  to [0.01, 1.00] for submission.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

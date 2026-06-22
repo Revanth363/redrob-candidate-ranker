@@ -2,4 +2,8 @@
 maxUploadSize = 1024
 
 [theme]
-base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#FAFAFA"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#1E293B"
+font = "sans serif"

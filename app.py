@@ -448,26 +448,20 @@ else:
     <div style="
         border: 1px solid #E2E8F0;
         border-radius: 8px;
-        padding: 20px;
+        padding: 16px 20px;
         background-color: #FFFFFF;
-        margin-top: 10px;
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     ">
-        <h3 style="margin-top: 0; font-size: 16px; font-weight: 600; color: #0F172A; border-bottom: 1px solid #F1F5F9; padding-bottom: 8px;">Ranking Logic & Architecture</h3>
-        <p style="font-size: 14px; color: #475569; line-height: 1.6;">
-            <strong>Signal Detection</strong> — We calibrated term banks against the full 100K candidate pool. Terms like <em>NDCG</em>, <em>MRR</em>, <em>learning-to-rank</em>, or <em>search engineer</em> titles appear in &lt;1% of profiles and are strong discriminators. Terms like <em>embeddings</em> or <em>FAISS</em> appear in ~5% and are treated as supporting signal elements.
-        </p>
-        <p style="font-size: 14px; color: #475569; line-height: 1.6;">
-            <strong>Integrity Check Engine</strong> — Deterministic rules identify and filter out honeypot profiles:
-        </p>
-        <ul style="font-size: 14px; color: #475569; line-height: 1.6; padding-left: 20px; margin-bottom: 12px;">
-            <li>Self-contradicting duplicate achievements (same hyper-specific description under multiple companies)</li>
-            <li>Anachronistic certifications (e.g. LangChain certs dated before the library existed)</li>
-            <li>Degree-institution mismatches (e.g. B.Tech degree at non-Indian universities like Stanford)</li>
-            <li>Description-vs-duration anomalies (discrepancy between stated career duration in text and structured fields)</li>
-            <li>Cross-candidate template twins (identifying identical career history templates using sibling deduplication)</li>
-        </ul>
-        <p style="font-size: 14px; color: #475569; line-height: 1.6; margin-bottom: 0;">
-            <strong>Composite Scoring Engine</strong> — Computes a gated composite score based on: domain signal depth + verified skill assessment scores + recruiter engagement (saves, response rate) + candidate availability signals. Engagement and availability bonuses only apply when direct domain signals exist.
-        </p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 11 12 14 22 4"></polyline>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        <span style="font-size: 14px; color: #475569;">
+            Looking for how candidates are evaluated? Expand the sidebar and open the <strong>Methodology & Architecture</strong> page for the full 11-layer technical specification.
+        </span>
     </div>
     """, unsafe_allow_html=True)
+
