@@ -1,4 +1,4 @@
-# 🔍 Redrob Intelligent Candidate Ranker
+# Redrob Intelligent Candidate Ranker
 
 A candidate ranking and talent discovery system built for the India Runs Hackathon – Data & AI Challenge. The platform analyzes large-scale candidate datasets and identifies high-potential Senior AI/Search Engineers by combining domain-specific relevance signals, behavioral hiring signals, and deterministic integrity checks.
 
@@ -10,13 +10,13 @@ The ranking pipeline is designed to operate efficiently on large candidate pools
 
 ---
 
-## 🤖 AI Tools & Engineering Declaration
+##  AI Tools & Engineering Declaration
 * **AI Tool Utilized**: **Claude AI** was utilized in the initial stage to analyze, explain, and unpack the 23 behavioral signals in an explainable way.
 * **Engineering Effort**: Following the initial analysis, **13+ hours of rigorous manual development, data calibration, and scripting** were spent to sync with the project goals, code the search signal weights, construct deterministic integrity checks, and build the custom interactive dashboard.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 Below is the directory structure focusing only on the files actively used for the ranking and web application process:
 
 ```text
@@ -33,7 +33,7 @@ Redrob/
 
 ---
 
-## 📋 Job Description & Evaluation Criteria
+##  Job Description & Evaluation Criteria
 The system ranks candidates against the **Senior AI Engineer — Founding Team** role for Redrob AI:
 * **The Sweet Spot**: 5–9 years of total experience, with 4–5 years specifically in applied ML/AI at **product companies** (shipping own software at scale).
 * **Core Technical Depth**: Production experience with embedding-based retrieval, hybrid search infrastructure (e.g., FAISS, Elasticsearch, Pinecone), and evaluation metrics (NDCG, MRR, MAP).
@@ -45,7 +45,7 @@ The system ranks candidates against the **Senior AI Engineer — Founding Team**
 
 ---
 
-## 📊 Behavioral Signals (The 23 Signals)
+##  Behavioral Signals (The 23 Signals)
 In a talent marketplace, static profiles can be misleading. Candidates generate behavioral signals that indicate their availability and verified skills. 
 
 Our ranker parses and handles these **23 behavioral signals** as follows:
@@ -78,7 +78,7 @@ Our ranker parses and handles these **23 behavioral signals** as follows:
 
 ---
 
-## ⚡ Scoring Engine & Integrity Filters
+##  Scoring Engine & Integrity Filters
 To prevent keyword-stuffers and honeypots from polluting the pipeline, the ranker operates on a strict **Gated Composite Scoring Engine**:
 
 ### 1. Signal Detection Calibration
@@ -104,7 +104,7 @@ Calculates if different candidates share identical career history descriptions (
 
 ---
 
-## 🚀 How to Run the App
+##  How to Run the App
 Follow these steps to launch the interactive application locally:
 
 ### 1. Install Dependencies
